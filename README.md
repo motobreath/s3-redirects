@@ -15,3 +15,5 @@ Change the __S3Bucket__ variable to point to your bucket name. Run from the comm
 ```
 node index.js
 ```
+
+There is also sample code to read redirects from your S3 bucket, but by default this script only writes the redirects from your .csv file. 
