@@ -8,9 +8,9 @@ const csv=require('csvtojson')
 const csvFilePath='redirects.csv'
 
 /**
- * The bucket to write too
+ * The bucket to write too. **REQURIED**
  */
-const S3Bucket="www.jwine.com"
+const S3Bucket="**YOUR BUCKET NAME HERE"
 
 /* Read from S3 file, get array of redirect objects. Uses promise .then pattern*/
 csv()
